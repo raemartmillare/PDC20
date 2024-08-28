@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  border: 2px solid rgba(0, 123, 255, 0); /* Fully transparent border */
+    padding: 2rem; /* Adds padding inside the border */
+    border-radius: 10px; /* Rounds the corners of the border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds shadow for a subtle 3D effect */
+    background-color: rgba(248, 249, 250, 0.8); /* Slightly transparent background color for the form */
+    max-width: 600px; /* Maximum width of the form */
+    margin: auto; /* Center the form horizontally */
+    margin-top: 2rem; /* Space above the form */
+    position: relative; /* Allows z-index adjustment if needed */
+    text-align: center;
+    font-weight: bold;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
